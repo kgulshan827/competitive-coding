@@ -16,8 +16,7 @@ public static void main (String[] args) throws java.lang.Exception
 		// your code goes here
 		try
 		{
-		    PrintWriter printr 
-                = new PrintWriter(System.out);
+		   
                 Scanner sc=new Scanner(System.in);
 		long t;
 	    t=sc.nextLong();
@@ -62,9 +61,7 @@ public static void main (String[] args) throws java.lang.Exception
 	                }
 	            }
 	        }
-	  printr.println(n*m-p); 
-  
-            printr.flush(); 
+	 System.out.println(p);
 	        
 	    }
 	}
